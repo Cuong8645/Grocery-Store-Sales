@@ -26,7 +26,7 @@ The dataset contains records of customers for their last full year of the loyalt
 # 1.Determine how many products have the `year_added` value missing.
 
 Last year (2022) there was a bug in the product system. For some products that were added in that year, the `year_added` value was not set in the data. As the year the product was added may have an impact on the price of the product, this is important information to have. 
-
+![](Fill_miss_value.png)
 
 # 2.Update datatype in criteria  
 
@@ -41,6 +41,13 @@ Last year (2022) there was a bug in the product system. For some products that w
 | year_added | Nominal. The year the product was first added to FoodYum stock.</br>Missing values should be replaced with last year (2022). |
 | stock_location | Nominal. The location that stock originates. This can be one of four warehouse locations, A, B, C or D </br>Missing values should be replaced with “Unknown”. |
 
-# 3.Determine the minimum and maximum values for each product type.   
+![](update_data_1.png)
+![](update_data_2.png)
 
-# 4.Detail at meat and dairy products where the average units sold was greater than ten. 
+# 3.Determine the minimum and maximum values for each product type.
+
+![](min_max_each_product_type.png)
+
+# 4.Detail at meat and dairy products where the average units sold was greater than ten.
+
+![](avg_meat.png)
